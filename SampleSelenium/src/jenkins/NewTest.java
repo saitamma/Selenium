@@ -26,7 +26,7 @@ public class NewTest {
   public void sampletest2()
  {
 	  WebDriver driver=new FirefoxDriver();
-	  driver.get("http://www.facebook.com");
+	  driver.get("http://www.google.com");
 	  System.out.println(driver.getTitle());
 	  driver.manage().window().maximize();
  }
