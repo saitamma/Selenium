@@ -1,12 +1,18 @@
 package jenkins;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class NewTest {
 	
-  @Test
+	@Test
+	public void sample()
+	{
+		System.out.println("Hai");
+	}
+	
+ /* @Test
    public void sampletest()
   {
 	  WebDriver driver=new FirefoxDriver();
@@ -30,6 +36,7 @@ public class NewTest {
 	  System.out.println(driver.getTitle());
 	  driver.manage().window().maximize();
  }
+  */
 
 
 }
